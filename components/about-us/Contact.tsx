@@ -17,7 +17,7 @@ const Contact = () => {
             />
             <div className="absolute top-4 left-4 bg-secondary-container glass-card px-3 py-1 rounded-full flex items-center gap-xs">
               <MdOutlineLocationOn />
-              <span className="font-label-md text-primary">Tanjombato Hub</span>
+              <span className="font-label-md text-primary">Tongarivo Tanjombato Antananarivo</span>
             </div>
           </div>
         </div>
