@@ -3,8 +3,8 @@ import Equipe from "@/public/images/equipe.jpg";
 
 const Sociale = () => {
   return (
-    <section className="bg-primary py-xl">
-      <div className="px-16 max-w-container-max mx-auto flex flex-col md:flex-row items-center gap-lg">
+    <section className="bg-primary py-10 sm:py-16 md:py-20">
+      <div className="max-sm:px-6 max-xl:px-5 max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-lg">
         <div className="flex-1 space-y-md">
           <h2 className="text-bold text-4xl text-secondary-fixed">
             {`L'Humain au Cœur de l'Action`}
@@ -16,7 +16,7 @@ const Sociale = () => {
           <div className="flex flex-wrap gap-lg pt-md">
             <div className="space-y-2">
               <div className="text-bold text-4xl text-white">
-                15
+                21
               </div>
               <div className="text-white/60">
                 Collaborateurs Passionnés
@@ -40,10 +40,10 @@ const Sociale = () => {
             src={Equipe}
           />
           <div className="absolute -bottom-6 -left-6 bg-secondary-container p-md rounded-lg shadow-lg">
-            <p className="font-bold text-on-secondary-container">
-              13 femmes leaders
+            <p className="font-bold text-on-secondary-container uppercase">
+              14 femmes leaders
             </p>
-            <p className="text-sm text-on-secondary-container/80 text-on-secondary-container">
+            <p className="text-xs text-on-secondary-container/80 uppercase">
               moteur de notre croissance
             </p>
           </div>

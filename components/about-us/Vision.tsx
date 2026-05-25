@@ -3,7 +3,7 @@ import { MdOutlineFactory, MdOutlineLocationOn, MdOutlineNaturePeople, MdOutline
 const Vision = () => {
   return (
     <section className="py-xl bg-surface-container-low overflow-hidden">
-      <div className="px-16 max-w-container-max mx-auto">
+      <div className="max-sm:px-6 max-xl:px-5 max-w-7xl mx-auto">
         <div className="text-center mb-xl">
           <h2 className="text-bold text-3xl text-primary">
             {`Vision 2030 : L'Expansion`}

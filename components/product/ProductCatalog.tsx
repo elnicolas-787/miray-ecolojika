@@ -19,7 +19,7 @@ import {
 const ProductCatalog = () => {
   return (
     <section className="py-xl">
-      <div className="max-xl:px-8 max-w-7xl mx-auto">
+      <div className="max-xl:px-5 max-w-7xl mx-auto">
         <div className="flex justify-between items-end mb-lg">
           <div className="space-y-2">
             <h2 className="text-bold text-3xl text-primary">
@@ -51,10 +51,13 @@ const ProductCatalog = () => {
                 />
               </div>
               <div className="p-md">
+                <p className="text-secondary text-bold text-sm mb-2">
+                  2500 Ar/Kg
+                </p>
                 <div className="flex justify-between items-start mb-xs">
                   <h3 className="text-bold text-primary">Vermi Composte</h3>
                   <span className="bg-tertiary-container text-on-tertiary-container px-base py-xs rounded text-xs font-bold uppercase">
-                    Bio
+                    Natoraly
                   </span>
                 </div>
                 <p className="text-on-surface-variant">
@@ -72,10 +75,11 @@ const ProductCatalog = () => {
                 />
               </div>
               <div className="p-md">
+                <p className="text-secondary text-bold text-sm mb-2">
+                  800 Ar/Kg
+                </p>
                 <div className="flex justify-between items-start mb-xs">
-                  <h3 className="font-headline-md text-headline-md text-primary">
-                    Co-Composte
-                  </h3>
+                  <h3 className="text-bold text-primary">Co-Composte</h3>
                   <span className="bg-tertiary-container text-on-tertiary-container px-base py-xs rounded text-xs font-bold uppercase">
                     Mix
                   </span>
@@ -95,12 +99,13 @@ const ProductCatalog = () => {
                 />
               </div>
               <div className="p-md">
+                <p className="text-secondary text-bold text-sm mb-2">
+                  600 Ar/Kg
+                </p>
                 <div className="flex justify-between items-start mb-xs">
-                  <h3 className="font-headline-md text-headline-md text-primary">
-                    Composte
-                  </h3>
+                  <h3 className="text-bold text-primary">Composte</h3>
                   <span className="bg-tertiary-container text-on-tertiary-container px-base py-xs rounded text-xs font-bold uppercase">
-                    Bio
+                    Natoraly
                   </span>
                 </div>
                 <p className="text-on-surface-variant">
@@ -132,6 +137,9 @@ const ProductCatalog = () => {
                 />
               </div>
               <div className="p-md">
+                <p className="text-secondary text-bold text-sm mb-2">
+                  1000 Ar/Kg
+                </p>
                 <div className="flex justify-between items-start mb-xs">
                   <h3 className="text-bold text-primary capitalize">
                     Charbon écolojika
@@ -142,7 +150,7 @@ const ProductCatalog = () => {
                 </div>
                 <p className="text-on-surface-variant">
                   Briquettes à haute valeur calorifique produites à partir de
-                  résiduce biomasse.
+                  résiduce Natoralymasse.
                 </p>
               </div>
             </div>
@@ -170,6 +178,9 @@ const ProductCatalog = () => {
                 />
               </div>
               <div className="p-md">
+                <p className="text-secondary text-bold text-sm mb-2">
+                  1000 Ar/ Pièce
+                </p>
                 <div className="flex justify-between items-start mb-xs">
                   <h3 className="text-bold text-primary capitalize">
                     Biriky Plast
@@ -189,6 +200,9 @@ const ProductCatalog = () => {
                 />
               </div>
               <div className="p-md">
+                <p className="text-secondary text-bold text-sm mb-2">
+                  1500 Ar/ Pièce
+                </p>
                 <div className="flex justify-between items-start mb-xs">
                   <h3 className="text-bold text-primary capitalize">
                     Kapila Plast
@@ -208,6 +222,9 @@ const ProductCatalog = () => {
                 />
               </div>
               <div className="p-md">
+                <p className="text-secondary text-bold text-sm mb-2">
+                  4000 Ar/ Pièce
+                </p>
                 <div className="flex justify-between items-start mb-xs">
                   <h3 className="text-bold text-primary capitalize">
                     Pavet Plast
@@ -243,6 +260,9 @@ const ProductCatalog = () => {
                 <p className="text-sm text-on-surface-variant">
                   Chaises pliantes robustes.
                 </p>
+                <p className="text-secondary text-bold text-sm mb-2">
+                  15000 Ar
+                </p>
               </div>
             </div>
             <div className="bg-surface-container rounded-md p-4 flex gap-5 items-center">
@@ -256,6 +276,9 @@ const ProductCatalog = () => {
                 <p className="text-sm text-on-surface-variant">
                   Mobilier d'appoint circulaire.
                 </p>
+                <p className="text-secondary text-bold text-sm mb-2">
+                  45000 Ar
+                </p>
               </div>
             </div>
             <div className="bg-surface-container rounded-md p-4 flex gap-5 items-center">
@@ -268,6 +291,9 @@ const ProductCatalog = () => {
                 <h4 className="text-bold text-primary">Porte Rideau</h4>
                 <p className="text-sm text-on-surface-variant">
                   Accessoires domestiques recyclés.
+                </p>
+                <p className="text-secondary text-bold text-sm mb-2">
+                  500 Ar/ Pièce
                 </p>
               </div>
             </div>

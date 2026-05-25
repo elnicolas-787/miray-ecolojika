@@ -2,7 +2,7 @@ import { MdOutlineGroups, MdOutlineShield, MdOutlineSync } from "react-icons/md"
 
 const ValueFondamental = () => {
   return (
-    <section className="py-xl px-16 max-w-container-max mx-auto">
+    <section className="py-xl max-sm:px-6 max-xl:px-5 max-w-7xl mx-auto">
       <div className="text-center mb-xl">
         <h2 className="text-3xl text-bold text-primary">
           Nos Valeurs Fondamentales

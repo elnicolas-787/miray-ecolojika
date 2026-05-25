@@ -3,7 +3,7 @@ import React, { MdOutlineHandshake, MdOutlineShoppingCart } from "react-icons/md
 const Cta = () => {
   return (
     <section className="py-xl">
-      <div className="max-xl:px-8 max-w-7xl mx-auto bg-surface-container-high rounded-[2rem] p-lg md:p-xl relative overflow-hidden">
+      <div className="max-xl:px-5 max-w-7xl mx-auto bg-surface-container-high rounded-[2rem] p-lg md:p-xl relative overflow-hidden">
         <div className="absolute top-0 right-0 w-1/2 h-full opacity-10 pointer-events-none">
           <svg
             className="w-full h-full"

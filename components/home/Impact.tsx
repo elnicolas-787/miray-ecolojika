@@ -3,7 +3,7 @@ import React from "react";
 const Impact = () => {
   return (
     <section className="py-10 sm:py-16 md:py-20 bg-primary text-on-primary" id="impact">
-      <div className="max-w-7xl mx-auto max-xl:px-8 grid grid-cols-1 min-[550px]:grid-cols-3 gap-gutter text-center">
+      <div className="max-w-7xl mx-auto max-xl:px-5 grid grid-cols-1 min-[550px]:grid-cols-3 gap-gutter text-center">
         <div>
           <div
             className="text-3xl sm:text-4xl text-semibold text-primary-fixed mb-2"

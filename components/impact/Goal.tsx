@@ -41,20 +41,7 @@ const Goal = () => {
             Andoharanofotsy
           </h3>
           <p className="font-body-md text-body-md text-on-surface-variant">
-            {`Zone d'expansion prioritaire avec un potentiel de collecte de 15
-            tonnes par jour.`}
-          </p>
-        </div>
-        <div className="bg-white p-8 rounded-xl border border-outline-variant hover:shadow-lg transition-shadow group">
-          <div className="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center mb-6 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
-            <MdOutlineLocationOn size={25} />
-          </div>
-          <h3 className="text-bold text-lg text-primary mb-2">
-            Soavina
-          </h3>
-          <p className="font-body-md text-body-md text-on-surface-variant">
-            Intégration des réseaux de collecte informels pour une structuration
-            durable.
+            {`Création d’un nouveau centre de traitement et de valorisation des déchets à 2028.`}
           </p>
         </div>
         <div className="bg-white p-8 rounded-xl border border-outline-variant hover:shadow-lg transition-shadow group">
@@ -65,8 +52,18 @@ const Goal = () => {
             Ampanefy
           </h3>
           <p className="font-body-md text-body-md text-on-surface-variant">
-            {`Développement d'unités de pré-traitement communautaires pour le
-            bio-fertilisant.`}
+            {`Création d’un nouveau centre de traitement et de valorisation des déchets à 2030.`}
+          </p>
+        </div>
+        <div className="bg-white p-8 rounded-xl border border-outline-variant hover:shadow-lg transition-shadow group">
+          <div className="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center mb-6 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+            <MdOutlineLocationOn size={25} />
+          </div>
+          <h3 className="text-bold text-lg text-primary mb-2">
+            Soavina
+          </h3>
+          <p className="font-body-md text-body-md text-on-surface-variant">
+            {`Création d’un nouveau centre de traitement et de valorisation des déchets à 2032.`}
           </p>
         </div>
       </div>

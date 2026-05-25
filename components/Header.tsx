@@ -6,7 +6,7 @@ import Link from 'next/link'
 const Header = () => {
   return (
     <header className="bg-surface/80 dark:bg-surface/80 backdrop-blur-md w-full top-0 sticky z-50 shadow-sm">
-        <nav className="flex justify-between items-center h-20 px-16 max-w-container-max mx-auto">
+        <nav className="flex justify-between items-center h-20 max-sm:px-6 max-xl:px-5 max-w-7xl mx-auto">
           <div className="flex items-center">
             <Image
               alt="MIRAY Logo"

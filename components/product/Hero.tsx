@@ -13,7 +13,7 @@ const Hero = () => {
         />
         <div className="absolute inset-0 bg-linear-to-r from-primary/80 to-transparent"></div>
       </div>
-      <div className="mx-auto max-xl:px-8 max-w-7xl relative z-10 w-full grid grid-cols-1 md:grid-cols-2 gap-gutter">
+      <div className="mx-auto max-xl:px-5 max-w-7xl relative z-10 w-full grid grid-cols-1 md:grid-cols-2 gap-gutter">
         <div className="max-w-4xl space-y-9">
           <span className="text-sm tracking-widest uppercase opacity-90 block mb-base text-secondary-fixed">
             Économie Circulaire

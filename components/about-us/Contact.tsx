@@ -1,11 +1,15 @@
 import Image from "next/image";
 import ContactImg from "@/public/images/contact.jpg";
-import { MdOutlineCall, MdOutlineLocationOn, MdOutlineMail } from "react-icons/md"
+import {
+  MdOutlineCall,
+  MdOutlineLocationOn,
+  MdOutlineMail,
+} from "react-icons/md";
 
 const Contact = () => {
   return (
     <section className="py-xl bg-surface">
-      <div className="px-16 max-w-container-max mx-auto grid grid-cols-1 lg:grid-cols-2 gap-xl items-center">
+      <div className="max-sm:px-6 max-xl:px-5 max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-xl items-center">
         <div className="order-2 lg:order-1">
           <div className="rounded-2xl overflow-hidden shadow-xl h-[450px] relative border-4 border-white">
             <Image
@@ -17,7 +21,9 @@ const Contact = () => {
             />
             <div className="absolute top-4 left-4 bg-secondary-container glass-card px-3 py-1 rounded-full flex items-center gap-xs">
               <MdOutlineLocationOn />
-              <span className="font-label-md text-primary">Tongarivo Tanjombato Antananarivo</span>
+              <span className="font-label-md text-primary">
+                Tongarivo Tanjombato Antananarivo
+              </span>
             </div>
           </div>
         </div>
@@ -37,13 +43,20 @@ const Contact = () => {
               <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary">
                 <MdOutlineCall size={23} />
               </div>
-              <span className="text-body-md">+261 20 22 000 00</span>
+              <a href="tel:+261383654335" className="text-body-md">
+                +261 38 36 543 35
+              </a>
             </div>
             <div className="flex items-center gap-md">
               <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center text-primary">
                 <MdOutlineMail size={23} />
               </div>
-              <span className="text-body-md">contact@miray-ecolojika.mg</span>
+              <a
+                href="mailto:contact@miray-ecolojika.mg"
+                className="text-body-md"
+              >
+                contact@miray-ecolojika.mg
+              </a>
             </div>
           </div>
           <button className="w-full md:w-auto bg-primary text-white px-8 py-3 rounded font-label-md hover:bg-primary-container transition-all shadow-lg hover:shadow-primary/20">

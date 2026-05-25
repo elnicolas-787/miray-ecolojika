@@ -4,7 +4,7 @@ import { MdOutlineEco } from "react-icons/md";
 const Innovation = () => {
   return (
     <section className="py-xl bg-[#f6f9f7]">
-      <div className="max-xl:px-8 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-gutter">
+      <div className="max-xl:px-5 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-gutter">
         <div className="md:col-span-2 bg-surface-container-low p-lg rounded-xl flex flex-col justify-between border border-outline/10 shadow-soft">
           <div>
             <MdOutlineEco className="text-secondary text-[48px] mb-md" />
