@@ -1,26 +1,155 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+  font-family: "Montserrat Regular";
+  src: url("/fonts/Montserrat-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@font-face {
+  font-family: "Montserrat Bold";
+  src: url("/fonts/Montserrat-Bold.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@font-face {
+  font-family: "Montserrat SemiBold";
+  src: url("/fonts/Montserrat-SemiBold.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat Italic";
+  src: url("/fonts/Montserrat-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  /* --- CONFIGURATION DES COULEURS --- */
+  --color-surface: #f8faf9;
+  --color-surface-dim: #d8dada;
+  --color-surface-bright: #f8faf9;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f2f4f3;
+  --color-surface-container: #eceeed;
+  --color-surface-container-high: #e6e9e8;
+  --color-surface-container-highest: #e1e3e2;
+  --color-on-surface: #191c1c;
+  --color-on-surface-variant: #41484c;
+  --color-inverse-surface: #2e3131;
+  --color-inverse-on-surface: #eff1f0;
+  --color-outline: #71787c;
+  --color-outline-variant: #c0c8cc;
+  --color-surface-tint: #326478;
+
+  --color-primary: #003140;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #0e485b;
+  --color-on-primary-container: #85b6cc;
+  --color-inverse-primary: #9ccee4;
+
+  --color-secondary: #3a692c;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #b8eea1;
+  --color-on-secondary-container: #3f6e30;
+
+  --color-tertiary: #412515;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #5a3b29;
+  --color-on-tertiary-container: #d1a68e;
+
+  --color-error: #ba1a1a;
+  --color-on-error: #ffffff;
+  --color-error-container: #ffdad6;
+  --color-on-error-container: #93000a;
+
+  --color-primary-fixed: #bce9ff;
+  --color-primary-fixed-dim: #9ccee4;
+  --color-on-primary-fixed: #001f29;
+  --color-on-primary-fixed-variant: #154c60;
+
+  --color-secondary-fixed: #bbf1a4;
+  --color-secondary-fixed-dim: #9fd58a;
+  --color-on-secondary-fixed: #032100;
+  --color-on-secondary-fixed-variant: #235116;
+
+  --color-tertiary-fixed: #ffdbc9;
+  --color-tertiary-fixed-dim: #ebbda5;
+  --color-on-tertiary-fixed: #2d1506;
+  --color-on-tertiary-fixed-variant: #5f3f2d;
+
+  --color-background: #f8faf9;
+  --color-on-background: #191c1c;
+  --color-surface-variant: #e1e3e2;
+
+  /* --- CONFIGURATION DES ARRONDIS (Radius) --- */
+  --radius-sm: 0.25rem;
+  --radius-DEFAULT: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+  --radius-full: 9999px;
+
+  /* --- CONFIGURATION DES ESPACEMENTS (Spacing) --- */
+  --spacing-base: 8px;
+  --spacing-xs: 4px;
+  --spacing-sm: 12px;
+  --spacing-md: 24px;
+  --spacing-lg: 48px;
+  --spacing-xl: 80px;
+  --spacing-gutter: 24px;
+  --spacing-margin-mobile: 16px;
+}
+
+/* --- CONFIGURATION DES CLASSES DE TYPOGRAPHIE --- */
+@utility text-semibold {
+  font-family: "Montserrat SemiBold", sans-serif;
+  src: url("/fonts/Montserrat-SemiBold.ttf") format("truetype");
+  font-style: normal;
+  font-display: swap;
+}
+
+@utility text-bold {
+  font-family: "Montserrat Bold", sans-serif;
+  src: url("/fonts/Montserrat-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-display: swap;
+}
+
+@utility text-regular {
+  font-family: "Montserrat Regular", sans-serif;
+  src: url("/fonts/Montserrat-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-display: swap;
+}
+
+@utility text-italic {
+  font-family: "Montserrat Italic", sans-serif;
+  src: url("/fonts/Montserrat-Italic.ttf") format("truetype");
+  font-style: normal;
+  font-display: swap;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+.leaf-vein {
+  background:
+    linear-gradient(135deg, rgba(58, 105, 44, 0.05) 25%, transparent 25%) -50px
+      0,
+    linear-gradient(225deg, rgba(58, 105, 44, 0.05) 25%, transparent 25%) -50px
+      0,
+    linear-gradient(315deg, rgba(58, 105, 44, 0.05) 25%, transparent 25%),
+    linear-gradient(45deg, rgba(58, 105, 44, 0.05) 25%, transparent 25%);
+  background-size: 100px 100px;
 }
