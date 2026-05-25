@@ -1,6 +1,8 @@
 import Image from "next/image";
+import Fifaliana from "@/public/profils/Fifaliana.jpeg";
+import Cindi from "@/public/profils/Cindi.jpeg";
 import Nicolas from "@/public/profils/Nicolas.png";
-import { MdOutlineAdminPanelSettings, MdOutlinePerson, MdPerson } from "react-icons/md";
+import { MdOutlineAdminPanelSettings, MdOutlinePerson } from "react-icons/md";
 
 const Team = () => {
   return (
@@ -17,7 +19,7 @@ const Team = () => {
             <Image
               alt="IRINOMENA Bijou Fifaliana"
               className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all"
-              src={Nicolas}
+              src={Fifaliana}
             />
           </div>
           <h3 className="text-bold text-lg text-primary mb-1">
@@ -35,7 +37,7 @@ const Team = () => {
             <Image
               alt="Hantaniaina Cindi Cooper"
               className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all"
-              src={Nicolas}
+              src={Cindi}
             />
           </div>
           <h3 className="text-bold text-lg text-primary mb-1">
