@@ -18,7 +18,7 @@ const Footer = () => {
             src={Logo}
           />
           <p className="max-sm:text-sm text-on-surface-variant text-center md:text-left max-w-2xl">
-            © 2024 Malagasy Circular. Tous droits réservés. Restauration
+            © 2022 <span className="capitalize text-bold">Miray écolojika</span>. Tous droits réservés. Restauration
             environnementale et inclusion sociale.
           </p>
         </div>
@@ -33,11 +33,11 @@ const Footer = () => {
             className="max-sm:text-sm text-on-surface-variant hover:text-primary transition-colors opacity-80 hover:opacity-100"
             href="#"
           >
-            Conditions d'utilisation
+            Mention légale
           </a>
           <a
             className="max-sm:text-sm text-on-surface-variant hover:text-primary transition-colors opacity-80 hover:opacity-100"
-            href="#"
+            href="a-propos"
           >
             Contact
           </a>

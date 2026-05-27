@@ -8,7 +8,7 @@ import {
 
 const Contact = () => {
   return (
-    <section className="py-xl bg-surface">
+    <section className="py-xl">
       <div className="max-sm:px-6 max-xl:px-5 max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-xl items-center">
         <div className="order-2 lg:order-1">
           <div className="rounded-2xl overflow-hidden shadow-xl h-[450px] relative border-4 border-white">

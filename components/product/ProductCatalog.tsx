@@ -42,7 +42,10 @@ const ProductCatalog = () => {
             </div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter">
-            <div className="group rounded-lg border border-outline-variant/30 overflow-hidden shadow-sm transition-all hover:shadow-lg">
+            <div className="relative group rounded-lg border border-outline-variant/30 overflow-hidden shadow-sm transition-all hover:shadow-lg">
+              <span className="absolute top-0 right-0 bg-secondary-container py-1.5 px-3 rounded-bl-lg text-primary text-bold text-xs mb-2">
+                2500 Ar/ Kg
+              </span>
               <div className="h-48 overflow-hidden bg-surface-container">
                 <Image
                   className="w-full h-full object-contain p-md transition-transform duration-300 hover:scale-110"
@@ -51,9 +54,6 @@ const ProductCatalog = () => {
                 />
               </div>
               <div className="p-md">
-                <p className="text-secondary text-bold text-sm mb-2">
-                  2500 Ar/Kg
-                </p>
                 <div className="flex justify-between items-start mb-xs">
                   <h3 className="text-bold text-primary">Vermi Composte</h3>
                   <span className="bg-tertiary-container text-on-tertiary-container px-base py-xs rounded text-xs font-bold uppercase">
@@ -66,7 +66,10 @@ const ProductCatalog = () => {
                 </p>
               </div>
             </div>
-            <div className="product-card group rounded-lg border border-outline-variant/30 overflow-hidden shadow-sm transition-all hover:shadow-lg">
+            <div className="relative group rounded-lg border border-outline-variant/30 overflow-hidden shadow-sm transition-all hover:shadow-lg">
+              <span className="absolute top-0 right-0 bg-secondary-container py-1.5 px-3 rounded-bl-lg text-primary text-bold text-xs mb-2">
+                800 Ar/ Kg
+              </span>
               <div className="h-48 overflow-hidden bg-surface-container">
                 <Image
                   className="w-full h-full object-contain p-md transition-transform duration-300 hover:scale-110"
@@ -75,9 +78,6 @@ const ProductCatalog = () => {
                 />
               </div>
               <div className="p-md">
-                <p className="text-secondary text-bold text-sm mb-2">
-                  800 Ar/Kg
-                </p>
                 <div className="flex justify-between items-start mb-xs">
                   <h3 className="text-bold text-primary">Co-Composte</h3>
                   <span className="bg-tertiary-container text-on-tertiary-container px-base py-xs rounded text-xs font-bold uppercase">
@@ -90,7 +90,10 @@ const ProductCatalog = () => {
                 </p>
               </div>
             </div>
-            <div className="product-card group rounded-lg border border-outline-variant/30 overflow-hidden shadow-sm transition-all hover:shadow-lg">
+            <div className="relative group rounded-lg border border-outline-variant/30 overflow-hidden shadow-sm transition-all hover:shadow-lg">
+              <span className="absolute top-0 right-0 bg-secondary-container py-1.5 px-3 rounded-bl-lg text-primary text-bold text-xs mb-2">
+                600 Ar/ Kg
+              </span>
               <div className="h-48 overflow-hidden bg-surface-container">
                 <Image
                   alt="Composte"
@@ -99,9 +102,6 @@ const ProductCatalog = () => {
                 />
               </div>
               <div className="p-md">
-                <p className="text-secondary text-bold text-sm mb-2">
-                  600 Ar/Kg
-                </p>
                 <div className="flex justify-between items-start mb-xs">
                   <h3 className="text-bold text-primary">Composte</h3>
                   <span className="bg-tertiary-container text-on-tertiary-container px-base py-xs rounded text-xs font-bold uppercase">
@@ -128,7 +128,10 @@ const ProductCatalog = () => {
             </div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter">
-            <div className="group rounded-lg border border-outline-variant/30 overflow-hidden shadow-sm transition-all hover:shadow-lg">
+            <div className="relative group rounded-lg border border-outline-variant/30 overflow-hidden shadow-sm transition-all hover:shadow-lg">
+              <span className="absolute top-0 right-0 bg-secondary-container py-1.5 px-3 rounded-bl-lg text-primary text-bold text-xs mb-2">
+                1000 Ar/ Kg
+              </span>
               <div className="h-48 overflow-hidden bg-surface-container">
                 <Image
                   className="w-full h-full object-contain p-md transition-transform duration-300 hover:scale-110"
@@ -137,9 +140,6 @@ const ProductCatalog = () => {
                 />
               </div>
               <div className="p-md">
-                <p className="text-secondary text-bold text-sm mb-2">
-                  1000 Ar/Kg
-                </p>
                 <div className="flex justify-between items-start mb-xs">
                   <h3 className="text-bold text-primary capitalize">
                     Charbon écolojika
@@ -169,7 +169,10 @@ const ProductCatalog = () => {
             </div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter">
-            <div className="group rounded-lg border border-outline-variant/30 overflow-hidden shadow-sm transition-all hover:shadow-lg">
+            <div className="relative group rounded-lg border border-outline-variant/30 overflow-hidden shadow-sm transition-all hover:shadow-lg">
+              <span className="z-20 absolute top-0 right-0 bg-secondary-container py-1.5 px-3 rounded-bl-lg text-primary text-bold text-xs mb-2">
+                1000 Ar/ Pièce
+              </span>
               <div className="h-48 overflow-hidden bg-surface-container">
                 <Image
                   className="w-full h-full object-contain p-md transition-transform duration-300 hover:scale-110"
@@ -178,9 +181,6 @@ const ProductCatalog = () => {
                 />
               </div>
               <div className="p-md">
-                <p className="text-secondary text-bold text-sm mb-2">
-                  1000 Ar/ Pièce
-                </p>
                 <div className="flex justify-between items-start mb-xs">
                   <h3 className="text-bold text-primary capitalize">
                     Biriky Plast
@@ -191,7 +191,10 @@ const ProductCatalog = () => {
                 </p>
               </div>
             </div>
-            <div className="group rounded-lg border border-outline-variant/30 overflow-hidden shadow-sm transition-all hover:shadow-lg">
+            <div className="relative group rounded-lg border border-outline-variant/30 overflow-hidden shadow-sm transition-all hover:shadow-lg">
+              <span className="z-20 absolute top-0 right-0 bg-secondary-container py-1.5 px-3 rounded-bl-lg text-primary text-bold text-xs mb-2">
+                1500 Ar/ Pièce
+              </span>
               <div className="h-48 overflow-hidden bg-surface-container">
                 <Image
                   className="w-full h-full object-contain p-md transition-transform duration-300 hover:scale-110"
@@ -200,9 +203,6 @@ const ProductCatalog = () => {
                 />
               </div>
               <div className="p-md">
-                <p className="text-secondary text-bold text-sm mb-2">
-                  1500 Ar/ Pièce
-                </p>
                 <div className="flex justify-between items-start mb-xs">
                   <h3 className="text-bold text-primary capitalize">
                     Kapila Plast
@@ -213,7 +213,10 @@ const ProductCatalog = () => {
                 </p>
               </div>
             </div>
-            <div className="group rounded-lg border border-outline-variant/30 overflow-hidden shadow-sm transition-all hover:shadow-lg">
+            <div className="relative group rounded-lg border border-outline-variant/30 overflow-hidden shadow-sm transition-all hover:shadow-lg">
+              <span className="z-20 absolute top-0 right-0 bg-secondary-container py-1.5 px-3 rounded-bl-lg text-primary text-bold text-xs mb-2">
+                4000 Ar/ Pièce
+              </span>
               <div className="h-48 overflow-hidden bg-surface-container">
                 <Image
                   className="w-full h-full object-contain p-md transition-transform duration-300 hover:scale-110"
@@ -222,9 +225,6 @@ const ProductCatalog = () => {
                 />
               </div>
               <div className="p-md">
-                <p className="text-secondary text-bold text-sm mb-2">
-                  4000 Ar/ Pièce
-                </p>
                 <div className="flex justify-between items-start mb-xs">
                   <h3 className="text-bold text-primary capitalize">
                     Pavet Plast
@@ -249,51 +249,51 @@ const ProductCatalog = () => {
             </div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter">
-            <div className="bg-surface-container rounded-md p-4 flex gap-5 items-center">
+            <div className="relative bg-surface-container rounded-md p-4 flex gap-5 items-center">
+              <span className="absolute top-0 right-0 bg-secondary-container py-1.5 px-3 rounded-bl-md rounded-tr-md text-primary text-bold text-xs mb-2">
+                15000 Ar
+              </span>
               <Image
                 alt="Chaise"
                 className="w-20 h-20 object-contain"
                 src={Chaise}
               />
-              <div>
+              <div className="mt-1">
                 <h4 className="text-bold text-primary">Seza Plast</h4>
                 <p className="text-sm text-on-surface-variant">
                   Chaises pliantes robustes.
                 </p>
-                <p className="text-secondary text-bold text-sm mb-2">
-                  15000 Ar
-                </p>
               </div>
             </div>
-            <div className="bg-surface-container rounded-md p-4 flex gap-5 items-center">
+            <div className="relative bg-surface-container rounded-md p-4 flex gap-5 items-center">
+              <span className="absolute top-0 right-0 bg-secondary-container py-1.5 px-3 rounded-bl-md rounded-tr-md text-primary text-bold text-xs mb-2">
+                45000 Ar
+              </span>
               <Image
                 alt="Chaise"
                 className="w-20 h-20 object-contain"
                 src={Table}
               />
-              <div>
+              <div className="mt-1">
                 <h4 className="text-bold text-primary">Table Plast</h4>
                 <p className="text-sm text-on-surface-variant">
                   Mobilier d'appoint circulaire.
                 </p>
-                <p className="text-secondary text-bold text-sm mb-2">
-                  45000 Ar
-                </p>
               </div>
             </div>
-            <div className="bg-surface-container rounded-md p-4 flex gap-5 items-center">
+            <div className="relative bg-surface-container rounded-md p-4 flex gap-5 items-center">
+              <span className="absolute top-0 right-0 bg-secondary-container py-1.5 px-3 rounded-bl-md rounded-tr-md text-primary text-bold text-xs mb-2">
+                500 Ar/ Pièce
+              </span>
               <Image
                 alt="Chaise"
                 className="w-20 h-20 object-contain"
                 src={PorteRideau}
               />
-              <div>
+              <div className="mt-1">
                 <h4 className="text-bold text-primary">Porte Rideau</h4>
                 <p className="text-sm text-on-surface-variant">
                   Accessoires domestiques recyclés.
-                </p>
-                <p className="text-secondary text-bold text-sm mb-2">
-                  500 Ar/ Pièce
                 </p>
               </div>
             </div>

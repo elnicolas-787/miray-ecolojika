@@ -26,7 +26,7 @@ const Team = () => {
             IRINOMENA Bijou Fifaliana
           </h3>
           <p className="font-label-md text-secondary uppercase mb-sm max-sm:text-xs text-sm">
-            Fondateur &amp; PDG
+            Fondateur &amp; CEO
           </p>
           <p className="text-body-md text-on-surface-variant">
             Vision globale et stratégie pour une transformation durable.

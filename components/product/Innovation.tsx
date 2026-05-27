@@ -8,7 +8,7 @@ const Innovation = () => {
         <div className="md:col-span-2 bg-surface-container-low p-lg rounded-xl flex flex-col justify-between border border-outline/10 shadow-soft">
           <div>
             <MdOutlineEco className="text-secondary text-[48px] mb-md" />
-            <h2 className="text-3xl text-bold text-primary mb-sm">
+            <h2 className="text-2xl sm:text-3xl text-bold text-primary mb-sm">
               Zéro Déchet, Valeur Maximale
             </h2>
             <p className="text-on-surface-variant max-w-2xl">

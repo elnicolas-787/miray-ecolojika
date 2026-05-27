@@ -4,7 +4,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden">
+    <section className="relative min-h-160 flex items-center overflow-hidden">
       <Image
         className="absolute inset-0 w-full h-full object-cover"
         alt="Bg hero"

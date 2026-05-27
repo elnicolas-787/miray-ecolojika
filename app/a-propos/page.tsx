@@ -14,7 +14,7 @@ const AboutUs = () => {
       <History />
       <Sociale />
       <Team />
-      <Vision />
+      {/* <Vision /> */}
       <ValueFondamental />
       <Contact />
     </>
